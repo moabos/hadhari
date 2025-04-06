@@ -1,0 +1,19 @@
+[project]
+name = "hadhari"
+version = "0.1.0"
+description = "Arabic spam detection model"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "firebase-admin>=6.7.0",
+    "numpy>=2.2.4",
+    "polars>=1.26.0",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ruff>=0.11.4",
+]

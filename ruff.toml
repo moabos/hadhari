@@ -1,0 +1,22 @@
+line-length = 120
+fix = true
+preview = true
+target-version = "py312"
+
+[format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "lf"
+
+[lint]
+select = ["ALL"]
+ignore = [
+  "D100", "D101", "D102", "D103", "D104", "D105", "D106", "D107",  # all docstring rules
+  "TD002", "TD003",  # TODO comment metadata
+  "ERA001",  # commented out code
+  "PLR0913",  # too many args
+  "D203",  # blank line before class
+  "D213",  # multiline summary on second line
+  "CPY001",  # copyright
+]
