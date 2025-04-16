@@ -13,3 +13,4 @@ wheels/
 
 firebaseServiceAccount.json
 notebooks/throwaway.ipynb
+artifacts/
